@@ -728,4 +728,8 @@
     visibility: visible;
     opacity: 1;
 }
-
+@media (max-width: 600px) {
+footer, .bottom-footer{
+    display: none!important;
+}
+}
